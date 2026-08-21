@@ -56,6 +56,11 @@ SDK 2013 by default does not have the modifications to the regular GameUI that w
 Provided in `game/bin` is a copy of GameUI for SDK 2013 with the modifications you can use, unfortunately the code for this cannot be provided.
 
  `IsSteamDeck()` currently returns a check for -gamepadui on the startup parameters. This can be modified as needed.
+ 
+## Known Issues
+
+- "SlideySlide" element can not be interacted with using the Mouse, only Movement Inputs.
+- Joysticks and Trigger Axis inputs from Gamepads are not detected.
 
 ## Credits
 
