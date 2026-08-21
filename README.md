@@ -48,7 +48,7 @@ $PreprocessorDefinitions 		"$BASE;GAMEPADUI"	[$GAMEPADUI]
 
 After you've done all of that, create/rebuild your solution, if you now see the GamepadUI (HL2) and GamepadUI (Episodic) projects within your solution, you're on the right track.
 
-Lastly, the function PostMessageToAllSiblingsOfType will need to be re-enabled in Panel.h, by changing its #if 0 to #ifdef 1. Despite the code comment declaring otherwise, this function is safe to compile, and is necessary for GamepadUI to compile.
+Lastly, the function PostMessageToAllSiblingsOfType will need to be re-enabled in Panel.h, by changing its #if 0 to #if 1. Despite the code comment declaring otherwise, this function is safe to compile, and is necessary for GamepadUI to compile.
 
 ## SDK 2013 Notes
 
